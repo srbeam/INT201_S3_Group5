@@ -23,7 +23,7 @@ function randomDice(items) {
 //เป็นฟังก์ชันที่ใช้เล่นทอยลูกเต๋า โดยจะเก็บค่าลูกเต๋าที่ทอยได้ในเเต่ละรอบซึ่งรับมาจาก ค่า maxTurn เเล้วนำมาเรียกใช้ฟังก์ชั่นอื่นๆ เพื่อทำการทอยหรือเปรียบเทียบเเต้มที่ออกมา เเล้วจึงนำไปใส่ลงในobject ของ player1 และ player2
 function play(maxturn) {
   let sum = 0; 
-  for (let turn = 1; turn <= maxTurn; turn++) {
+  for (let turn = 1; turn <= maxturn; turn++) {
     console.log("Turn " + turn);
     p1 = randomDice(dice.numDice);
     p2 = randomDice(dice.numDice);
