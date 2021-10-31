@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+
+body {
+  font-family: sans-serif;
+  background-color: #C59F9C;
+  color: #ffe3de;
+  font-family: "Gaegu", cursive;
+  font-size: 20px;
+}
+
+h2 {
+  padding: 50px 0px 0px 20px;
+  font-family: "Fondamento", cursive;
+  font-size: 60px;
+  color: white;
+}
+
+div {
+  padding: 0px 100px 0px 100px;
+}
+
+#c001,
+#c002,
+#c003,
+#c004,
+#c005 {
+  position: static;
+  float: left;
+  margin: 30px;
+  padding: 30px;
+  width: 300px;
+  height: 500px;
+  background-color: #d06a58;
+  border: 1px solid white;
+}
+
+img {
+  height: 40%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
