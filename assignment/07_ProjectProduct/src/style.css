@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+
+body {
+  font-family: sans-serif;
+  background-color: #d74c4c;
+  /* #d74c4c */
+  color: #272727;
+  font-family: "Gaegu", cursive;
+  font-size: 18px;
+}
+
+h2 {
+  padding: 50px 0px 0px 100px;
+  font-family: "Fondamento", cursive;
+  font-size: 60px;
+  color: white;
+}
+
+div {
+  padding: 0px 100px 0px 300px;
+}
+
+
+#c001,
+#c002,
+#c003,
+#c004,
+#c005 {
+  position: static;
+  float: left;
+  margin: 30px;
+  padding: 50px;
+  width: 250px;
+  height: 450px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px 0 #464342;
+}
+
+img {
+  height: 40%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.addButton {
+  background-color: #4bb123;
+  /* #f44336 : สีเก่า */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.addButton:hover {
+  background-color: #464342; /* Green */
+  color: white;
+}
+
+#iconSearch{
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  margin-left: -20px ;
+}
+
