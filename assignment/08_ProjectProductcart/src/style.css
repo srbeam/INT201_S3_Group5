@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+
+body {
+  background: linear-gradient(36deg, #ee8a65 40%, #d74c4c 98%);
+  color: #272727;
+  font-family: "Dongle", sans-serif;
+  font-size: 20px;
+}
+
+.top-text {
+  position: relative;
+  font-family: "Fondamento", cursive;
+  color: white;
+  letter-spacing: 0.12rem;
+  padding: 300px 0px 250px 350px;
+  font-weight: 600;
+}
+
+.headerShop {
+  font-size: 60px;
+}
+
+.header-text {
+  padding-top: 0px;
+  padding-left: 10px;
+  font-size: 25px;
+  top: 20px;
+}
+
+.img-topic {
+  position: absolute;
+  height: 60%;
+  width: 50%;
+  padding-left: 15vw;
+  top: 200px;
+}
+
+#products {
+  padding: 0px 100px 0px 200px;
+}
+
+#c001,
+#c002,
+#c003,
+#c004,
+#c005 {
+  position: static;
+  float: left;
+  margin: 20px;
+  padding: 25px;
+  width: 200px;
+  height: 350px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px 0 #464342;
+  line-height: 15px;
+}
+
+img {
+  height: 40%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+#addButton {
+  background-color: #4bb123;
+  /* #f44336 : สีเก่า */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#addButton:hover {
+  background-color: #464342; /* Green */
+  color: white;
+}
+
+#iconSearch {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  margin-left: -20px;
+}
+
+#iconCart {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  margin-left: -25px;
+}
+
+#divCart {
+  padding-left: 72vw;
+}
+#cart {
+  font-size: 26;
+}
+
+#search {
+  padding-left: 72vw;
+}
+
+#pC001name,
+#pC002name,
+#pC003name,
+#pC004name,
+#pC005name {
+  font-size: larger;
+}
