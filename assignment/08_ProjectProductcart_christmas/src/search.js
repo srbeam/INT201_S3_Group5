@@ -17,16 +17,14 @@ let searchingfun = {
   //ฟังก์ชันสำหรับค้นหาสินค้า
   searching: () => {
     const word = document.getElementById("searchText");
-    const filter = word.value.toUpperCase();
-    for (let s in product) {
-      for (var j = 0; j < product[s].productName.length; j++) {
-        if (product[s].productName.toUpperCase().indexOf(filter) > -1) {
-          document.getElementById(product[s].productId).style.display = "";
-        } else {
-          document.getElementById(product[s].productId).style.display = "none";
-        }
+    const filters = word.value.toUpperCase();
+    product.filter(function (A) {
+      if (A.productName.toUpperCase().indexOf(filters) < 0) {
+        document.getElementById(A.productId).style.display = "none";
+      } else {
+        document.getElementById(A.productId).style.display = "";
       }
-    }
+    });
   },
 };
 
